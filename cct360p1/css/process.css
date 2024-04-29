@@ -1,0 +1,247 @@
+:root {
+	--blueMain: #001734;
+	--yellowMain: #fabd0f;
+}
+
+
+.navbar {
+  	overflow: visible;
+  	background-color: var(--blueMain);
+	padding: 13px 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.navbar > .nav-logo {
+	font-size: 1.5em;
+	color: var(--yellowMain);
+		float: left;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 900;
+	
+}
+
+.navbar a:not(.nav-logo):hover, .dropdown:hover .dropbtn {
+  border-bottom: var(--yellowMain) solid 3px;
+
+}
+
+.navbar > .nav-logo:hover {
+  outline: 3px solid var(--yellowMain);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--blueMain);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.grid-container {
+    display: inline-grid;
+	grid-template-columns: auto auto auto;
+	width: 100%;
+}
+
+.grid-container2 {
+    display: inline-grid;
+	grid-template-columns: auto auto;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.grid-item {
+	width: auto;
+	height: 20px;
+}
+
+.pad {
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-size: 54px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: var(--blueMain);
+}
+
+h3 {
+	font-size: 32px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 22px;
+	
+}
+
+header {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.ia, .rationale {
+	width: 70%;
+	margin: 0 auto;
+	max-width: 715px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	color:var(--blueMain);
+}
+
+img {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.navigation {
+	background-color: var(--blueMain);
+	color: white;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.nav-txt {
+	width: 70%;
+	margin: 0 auto;
+	max-width: 715px;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+
+.footer-links {
+	background-color: var(--blueMain);
+	padding-top: 30px;
+	
+}
+
+.footer-nav ul li {
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 0.9em;
+	font-weight: 800;
+}
+
+.footer-nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.footer-nav ul li a:hover {
+	text-decoration: underline;
+	color: var(--yellowMain);
+}
+
+.footer-nav {
+	padding-top: 50px;
+	display: flex;
+	align-items: baseline;
+	margin: 0 auto;
+	justify-content: center;
+	gap: 150px;
+	line-height: 30px;
+	padding-bottom: 50px;
+}
+
+footer {
+	margin-top: -3px;
+}
+
+.footer-land {
+	color: white;
+	text-align: center;
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.footer-land h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.25em;
+	padding-bottom: 30px;
+	font-weight: 500;
+}
+
+.footer-land li, .footer-land a {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 01em;
+	font-weight: 500;
+	line-height: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer-land a:hover {
+	text-decoration: underline;
+	color: var(--yellowMain);
+}
+
+
+
